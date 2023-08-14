@@ -11,9 +11,9 @@
 </head>
 <body>
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">FoodApp</a>
+        <a class="navbar-brand" href="{% url 'food:index' %}">FoodApp</a>
         <div class="navbar">
-            <a class="nav-item nav-link" href="#">Menu</a>
+            <a class="nav-item nav-link" href="{% url 'food:create_item' %}">Add Item</a>
             <a class="nav-item nav-link" href="#">Item</a>
             <a class="nav-item nav-link" href="#">Add Item</a>
         </div>
